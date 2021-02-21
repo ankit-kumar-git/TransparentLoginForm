@@ -1,0 +1,43 @@
+.container {
+    width: 77%;
+    /* border: 12px solid red; */
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 9%;
+}
+.container h1 {
+    font-size: 32px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 20px;
+    padding: 13px 0;
+    display: inline-block;
+}
+.box {
+    border-bottom: 2px solid purple;
+    margin: 24px 0px;
+    width: 100%;
+}
+.box input {
+    font-family: 'EB Garamond', serif;
+    background: none;
+    font-size: 22px;
+    padding: 2px 0px;
+    width: 85%;
+    border: none;
+    outline: none;
+    color: white;
+}
+.btn {
+    font-family: 'EB Garamond', serif;
+    background: none;
+    font-size: 26px;
+    border-radius: 19px;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 13px;
+    border: 2px solid purple;
+    margin: 5px 0;
+    color: white;
+    font-weight: bold;
+}

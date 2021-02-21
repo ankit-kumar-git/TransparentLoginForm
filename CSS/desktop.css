@@ -1,0 +1,10 @@
+.box input{
+    font-family: 'EB Garamond', serif;
+    background:none;
+    font-size: 18px;
+    padding: 5px 0px;
+    width: 87%;
+    border:none;
+    outline: none;
+    color: white;
+}

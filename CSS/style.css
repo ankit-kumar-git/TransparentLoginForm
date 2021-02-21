@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background: url("../bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    width: 30%;
+    /* border:12px solid red; */
+    color: white;
+    position:absolute;
+    top:23%;
+    left:40%;
+}
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 20px;
+    padding:13px 0;
+    display:inline-block;
+
+}
+.box{
+    border-bottom: 2px solid purple;
+    margin: 24px 0px;
+    width:100%;
+   
+}
+.box i{
+    width:25px;
+    text-align: center;
+   
+}
+.box input{
+    font-family: 'EB Garamond', serif;
+    background:none;
+    font-size: 18px;
+    padding: 5px 10px;
+    width: 87%;
+    border:none;
+    outline: none;
+    color: white;
+}
+.btn{
+    font-family: 'EB Garamond', serif;
+    background: none;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 10px;
+    border: 2px solid purple;
+    margin: 5px 0;
+    color: white;
+    font-weight: bold;
+
+}
+.btn:hover{
+    opacity:0.4;
+    color:black;
+    background:white;
+}

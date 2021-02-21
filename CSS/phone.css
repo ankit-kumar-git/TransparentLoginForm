@@ -1,0 +1,38 @@
+.container {
+    width: 53%;
+    /* border: 12px solid red; */
+    color: white;
+    position: absolute;
+    top: 23%;
+    left: 34%;
+}
+.box {
+    border-bottom: 2px solid purple;
+    margin: 28px 0px;
+    width: 100%;
+}
+.box input {
+    font-family: 'EB Garamond', serif;
+    background: none;
+    font-size: 24px;
+    padding: 5px 0px;
+    width: 87%;
+    border:none;
+    outline: none;
+    color: white;
+}
+
+
+.btn {
+    font-family: 'EB Garamond', serif;
+    background: none;
+    font-size: 27px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 20px;
+    border: 2px solid purple;
+    margin: 5px 0;
+    color: white;
+    font-weight: bold;
+}
